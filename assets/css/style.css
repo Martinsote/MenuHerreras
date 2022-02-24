@@ -1,15 +1,12 @@
-/**
-* Template Name: Restaurantly - v3.7.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background: #0c0b09;
   color: #fff;
 }
@@ -25,7 +22,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  font-weight: 600;
 }
 
 /*--------------------------------------------------------------
@@ -129,33 +128,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #topbar .contact-info i {
   font-style: normal;
-  color: #d9ba85;
+  color: #f59a3c;
+  padding-left: 10px;
 }
 #topbar .contact-info i span {
   padding-left: 5px;
   color: #fff;
 }
-#topbar .languages ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: #cda45e;
-}
-#topbar .languages ul a {
-  color: white;
-}
-#topbar .languages ul li + li {
-  padding-left: 10px;
-}
-#topbar .languages ul li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  content: "/";
-}
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -180,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #header .logo a {
   color: #fff;
@@ -399,8 +378,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/224117124_956986344863912_875527874627193683_n.jpg") top center;
+  background: url("../img/WhatsApp\ Image\ 2022-02-24\ at\ 9.52.44\ AM.jpeg") top center;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   padding: 0;
 }
@@ -423,14 +404,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #hero h1 span {
-  color: #cda45e;
+  color: #f59a3c;
 }
 #hero h2 {
   color: #eee;
@@ -528,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment:fixed;
   }
 }
 @media (max-width: 992px) {
@@ -547,11 +528,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
   }
 }
@@ -593,7 +574,7 @@ section {
   padding-bottom: 40px;
 }
 .section-title h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -601,7 +582,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -616,8 +597,8 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
-  color: #cda45e;
+  font-family: "Montserrat", serif;
+  color: #f59a3c;
 }
 
 /*--------------------------------------------------------------
@@ -811,10 +792,10 @@ section {
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color: #f59a3c;
 }
 .menu #menu-flters li:last-child {
   margin-right: 0;
@@ -823,10 +804,10 @@ section {
   margin-top: 50px;
 }
 .menu .menu-img {
-  width: 70px;
+  width: 100px;
   border-radius: 50%;
   float: left;
-  border: 5px solid rgba(255, 255, 255, 0.2);
+  border: 4px solid rgba(255, 255, 255, 0.2);
 }
 .menu .menu-content {
   margin-left: 85px;
@@ -863,13 +844,13 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #cda45e;
+  color: #f59a3c;
 }
 .menu .menu-ingredients {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1259,7 +1240,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #f59a3c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1271,7 +1252,7 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .contact .info p {
   padding: 0 0 0 60px;
@@ -1515,14 +1496,14 @@ section {
 
 .btn-wsp{
   position:fixed;
-  width:60px;
-  height:60px;
+  width:80px;
+  height:80px;
   line-height: 63px;
   bottom:25px;
   right:25px;
   background:#25d366;
   color:#FFF;
-  border-radius:60px;
+  border-radius:80px;
   text-align:center;
   font-size:35px;
   text-orientation: inherit;
@@ -1536,8 +1517,8 @@ section {
 
 @media only screen and (min-width:320px) and (max-width:768px){
   .btn-wsp{
-      width:63px;
-      height:63px;
+      width:65px;
+      height:65px;
       line-height: 66px;
 }
 }
